@@ -1,0 +1,36 @@
+{
+  "name": "Kanban",
+  "version": "0.2",
+  "authors": [
+    "Albert Arvesu <albertarvesu@gmail.com>"
+  ],
+  "description": "Kanban Workflow Designer",
+  "keywords": [
+    "kanban",
+    "leotech",
+    "workflow",
+    "board",
+    "task"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-resource": "~1.2.11",
+    "angular-route": "~1.2.11",
+    "angular": "~1.2.11",
+    "parsleyjs": "~1.2.3",
+    "angular-bootstrap": "~0.10.0",
+    "angular-placeholder-shim" : "0.3.0",
+    "angular-dialog-service": "latest",
+    "angular-growl": "latest",
+    "eonasdan-bootstrap-datetimepicker": "latest",
+    "jqueryui-touch-punch": "latest"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "parsleyjs",
+  "version": "1.2.3",
+  "ignore": [
+    "bin",
+    "tests",
+    "bower.json"
+  ],
+  "dependencies": {
+    "jquery": ">1.10.0"
+  },
+  "homepage": "https://github.com/guillaumepotier/Parsley.js",
+  "_release": "1.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.3",
+    "commit": "26e30ce0897fe00f8920a9c3416721c6bf6fa553"
+  },
+  "_source": "git://github.com/guillaumepotier/Parsley.js.git",
+  "_target": "~1.2.3",
+  "_originalSource": "parsleyjs"
+}
