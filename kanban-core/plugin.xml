@@ -1,0 +1,41 @@
+<plugin name='kanban-core' version='0.1' grailsVersion='2.2 &gt; *'>
+  <author>Your name</author>
+  <title>Kanban Core Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/kanban-core</documentation>
+  <type>KanbanCoreGrailsPlugin</type>
+  <resources>
+    <resource>kanban.Activity</resource>
+    <resource>kanban.old.ActivityObject</resource>
+    <resource>kanban.Attachment</resource>
+    <resource>kanban.Board</resource>
+    <resource>kanban.Column</resource>
+    <resource>kanban.old.Company</resource>
+    <resource>kanban.Invite</resource>
+    <resource>kanban.Label</resource>
+    <resource>kanban.Notification</resource>
+    <resource>kanban.Role</resource>
+    <resource>kanban.Seq</resource>
+    <resource>kanban.Subscription</resource>
+    <resource>kanban.old.SubscriptionPlan</resource>
+    <resource>kanban.old.Task</resource>
+    <resource>kanban.User</resource>
+    <resource>kanban.UserRole</resource>
+    <resource>kanban.ActivityService</resource>
+    <resource>kanban.BoardService</resource>
+    <resource>kanban.ColumnService</resource>
+    <resource>kanban.CompanyService</resource>
+    <resource>kanban.PaymentService</resource>
+    <resource>kanban.TaskService</resource>
+    <resource>kanban.UserService</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
